@@ -13,11 +13,11 @@ console.log (sum);
 // 2. Given three sides of triangle. Check whether triangle is valid or not.
 //    Print `yes` if it is valid and `no` otherwise.
 
-let side1 = Number(prompt(`Insert a number`)); //x
+let side1 = Number(prompt(`Insert a number`)); 
 
-let side2 = Number(prompt(`Insert a number`)); //y
+let side2 = Number(prompt(`Insert a number`)); 
 
-let side3 = Number(prompt(`Insert a number`)); //z
+let side3 = Number(prompt(`Insert a number`)); 
 
 if (side1 > side2 && side1 > side3) {
         
