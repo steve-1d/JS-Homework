@@ -43,4 +43,4 @@ console.log(result.join(``));
     
 // 5.Insert a n positive number. Print the n-st prime number.
 
-//??? PAHAJ@ ANHASKANALI ER
+//??? Վերջին հարցի պահանջը անհասկանալի էր: Կարծում էի որ պետք է գրեինք ներմուծած պարզ թվի հաջորդող պարզ թիվը բայց պահանջում այդպես չէր:
