@@ -43,4 +43,26 @@ console.log(result.join(``));
     
 // 5.Insert a n positive number. Print the n-st prime number.
 
-//??? Վերջին հարցի պահանջը անհասկանալի էր: Կարծում էի որ պետք է գրեինք ներմուծած պարզ թվի հաջորդող պարզ թիվը բայց պահանջում այդպես չէր:
+let num = Number(prompt(`Insert a number to output it's n-st prime number`))
+
+let lowerNumber = 1;
+let higherNumber = 10000;
+
+const primeNumbers = [];
+
+for (let i = lowerNumber; i <= higherNumber; i++) {
+    let counter = 0;
+
+    for (let j = 2; j < i; j++) {
+        if (i % j == 0) {
+            counter = 1;
+            break;
+        }
+    }
+
+    if (i > 1 && counter == 0) {
+        primeNumbers.push(i);
+    }
+}
+
+console.log(primeNumbers[num - 1]);
