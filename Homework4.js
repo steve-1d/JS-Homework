@@ -35,7 +35,7 @@ checkIfSymbolIsIncludedInString (`Some text here`, ``);
 
 checkIfSymbolIsIncludedInString (`another string`, `t`);
 
-// 3. Given a string. Check whether the string is palindrome or not. ???????????
+// 3. Given a string. Check whether the string is palindrome or not. 
 
 function checkIfStringIsPalindrome (string) {
 
